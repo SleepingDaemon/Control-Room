@@ -1,5 +1,75 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7828064252656999332
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
+  m_Name: GradientSky
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 1
+    m_Value: 0
+  exposure:
+    m_OverrideState: 1
+    m_Value: -2.68
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 1
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  top:
+    m_OverrideState: 1
+    m_Value: {r: 0.70554465, g: 0.7231386, b: 0.990566, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middle:
+    m_OverrideState: 1
+    m_Value: {r: 0.3065148, g: 0.43289626, b: 0.5283019, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  bottom:
+    m_OverrideState: 1
+    m_Value: {r: 0.46226418, g: 0.40962243, b: 0.39466894, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  gradientDiffusion:
+    m_OverrideState: 1
+    m_Value: 1.57
 --- !u!114 &-7278576791710430874
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -20,22 +90,22 @@ MonoBehaviour:
     min: 0
     max: 360
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.2
   multiplier:
     m_OverrideState: 0
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 1.1761153
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0.2973801, y: 0.340631, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -50,8 +120,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   hdriSky:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
+    m_OverrideState: 1
+    m_Value: {fileID: 8900000, guid: bf092540576b6f845a6dcd1a9801c414, type: 3}
   enableDistortion:
     m_OverrideState: 0
     m_Value: 0
@@ -198,7 +268,7 @@ MonoBehaviour:
   active: 0
   m_AdvancedMode: 0
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   meteringMode:
     m_OverrideState: 0
@@ -207,8 +277,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -1.662971
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -340,7 +410,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
     min: 0
---- !u!114 &-1034802585407296784
+--- !u!114 &-2250312676355677664
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,7 +429,7 @@ MonoBehaviour:
     m_Value: 500
     min: 0
   directionalTransmissionMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
     max: 1
@@ -468,7 +538,7 @@ MonoBehaviour:
   m_Name: DefaultSettingsVolumeProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -1034802585407296784}
+  - {fileID: -2250312676355677664}
   - {fileID: 563934803465825209}
   - {fileID: 6680399268150954741}
   - {fileID: 8803800376836947137}
@@ -477,6 +547,7 @@ MonoBehaviour:
   - {fileID: 823848484465526848}
   - {fileID: -7278576791710430874}
   - {fileID: 2073101846283211130}
+  - {fileID: -7828064252656999332}
 --- !u!114 &448115243408767295
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -677,13 +748,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
   m_Name: VisualEnvironment
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   skyType:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 3
   skyAmbientMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   fogType:
     m_OverrideState: 0
