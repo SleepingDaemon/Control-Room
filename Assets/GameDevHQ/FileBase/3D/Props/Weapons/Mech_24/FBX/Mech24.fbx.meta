@@ -1,59 +1,161 @@
 fileFormatVersion: 2
 guid: c1de88a0baf03194492516b84967b472
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Hip
-    100002: L_Arm
-    100004: L_Foot
-    100006: L_Leg
-    100008: L_Shin
-    100010: //RootNode
-    100012: R_Arm
-    100014: R_Foot
-    100016: R_Leg
-    100018: R_Shin
-    400000: Hip
-    400002: L_Arm
-    400004: L_Foot
-    400006: L_Leg
-    400008: L_Shin
-    400010: //RootNode
-    400012: R_Arm
-    400014: R_Foot
-    400016: R_Leg
-    400018: R_Shin
-    2100000: No Name
-    2300000: Hip
-    2300002: L_Arm
-    2300004: L_Foot
-    2300006: L_Leg
-    2300008: L_Shin
-    2300010: //RootNode
-    2300012: R_Arm
-    2300014: R_Foot
-    2300016: R_Leg
-    2300018: R_Shin
-    3300000: Hip
-    3300002: L_Arm
-    3300004: L_Foot
-    3300006: L_Leg
-    3300008: L_Shin
-    3300010: //RootNode
-    3300012: R_Arm
-    3300014: R_Foot
-    3300016: R_Leg
-    3300018: R_Shin
-    4300000: Body
-    4300002: R_Arm
-    4300004: L_Arm
-    4300006: Hip
-    4300008: L_Leg
-    4300010: L_Shin
-    4300012: L_Foot
-    4300014: R_Leg
-    4300016: R_Shin
-    4300018: R_Foot
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Hip
+  - first:
+      1: 100002
+    second: L_Arm
+  - first:
+      1: 100004
+    second: L_Foot
+  - first:
+      1: 100006
+    second: L_Leg
+  - first:
+      1: 100008
+    second: L_Shin
+  - first:
+      1: 100010
+    second: //RootNode
+  - first:
+      1: 100012
+    second: R_Arm
+  - first:
+      1: 100014
+    second: R_Foot
+  - first:
+      1: 100016
+    second: R_Leg
+  - first:
+      1: 100018
+    second: R_Shin
+  - first:
+      4: 400000
+    second: Hip
+  - first:
+      4: 400002
+    second: L_Arm
+  - first:
+      4: 400004
+    second: L_Foot
+  - first:
+      4: 400006
+    second: L_Leg
+  - first:
+      4: 400008
+    second: L_Shin
+  - first:
+      4: 400010
+    second: //RootNode
+  - first:
+      4: 400012
+    second: R_Arm
+  - first:
+      4: 400014
+    second: R_Foot
+  - first:
+      4: 400016
+    second: R_Leg
+  - first:
+      4: 400018
+    second: R_Shin
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: Hip
+  - first:
+      23: 2300002
+    second: L_Arm
+  - first:
+      23: 2300004
+    second: L_Foot
+  - first:
+      23: 2300006
+    second: L_Leg
+  - first:
+      23: 2300008
+    second: L_Shin
+  - first:
+      23: 2300010
+    second: //RootNode
+  - first:
+      23: 2300012
+    second: R_Arm
+  - first:
+      23: 2300014
+    second: R_Foot
+  - first:
+      23: 2300016
+    second: R_Leg
+  - first:
+      23: 2300018
+    second: R_Shin
+  - first:
+      33: 3300000
+    second: Hip
+  - first:
+      33: 3300002
+    second: L_Arm
+  - first:
+      33: 3300004
+    second: L_Foot
+  - first:
+      33: 3300006
+    second: L_Leg
+  - first:
+      33: 3300008
+    second: L_Shin
+  - first:
+      33: 3300010
+    second: //RootNode
+  - first:
+      33: 3300012
+    second: R_Arm
+  - first:
+      33: 3300014
+    second: R_Foot
+  - first:
+      33: 3300016
+    second: R_Leg
+  - first:
+      33: 3300018
+    second: R_Shin
+  - first:
+      43: 4300000
+    second: Body
+  - first:
+      43: 4300002
+    second: R_Arm
+  - first:
+      43: 4300004
+    second: L_Arm
+  - first:
+      43: 4300006
+    second: Hip
+  - first:
+      43: 4300008
+    second: L_Leg
+  - first:
+      43: 4300010
+    second: L_Shin
+  - first:
+      43: 4300012
+    second: L_Foot
+  - first:
+      43: 4300014
+    second: R_Leg
+  - first:
+      43: 4300016
+    second: R_Shin
+  - first:
+      43: 4300018
+    second: R_Foot
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -61,7 +163,7 @@ ModelImporter:
       name: No Name
     second: {fileID: 2100000, guid: 6808b26776cc5514a911db0bddbb1c5f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -94,25 +196,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -121,10 +230,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -134,13 +243,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
