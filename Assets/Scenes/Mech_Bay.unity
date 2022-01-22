@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1897139358}
-  m_IndirectSpecularColor: {r: 0.018479496, g: 0.024783596, b: 0.036772072, a: 1}
+  m_IndirectSpecularColor: {r: 0.018192083, g: 0.02654184, b: 0.04151779, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1846,19 +1846,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5795535694803058276, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5795535694803058276, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5795535694803058276, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5795535694803058276, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_UseBoundingSphereOverride
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5807231085577433297, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_ShapeRadius
@@ -2757,7 +2757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.71
+      value: -3.164
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10729,6 +10729,10 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 542560202302369598, guid: 5c8ba41e1b09cc94d89b2833585407f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 542560202302369598, guid: 5c8ba41e1b09cc94d89b2833585407f6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16807,7 +16811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.709999
+      value: -3.1639993
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16835,15 +16839,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 9.75
+      value: 12.41
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 296.41
+      value: 159.156
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.001
+      value: 0.034
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_HDR
@@ -21090,6 +21094,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 99606868e28524c5c88aa3b556049377, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 99606868e28524c5c88aa3b556049377, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 99606868e28524c5c88aa3b556049377, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99606868e28524c5c88aa3b556049377, type: 3}
@@ -45694,7 +45706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876826878152003464, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 59.000004
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4876826878152003464, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.x
@@ -45702,15 +45714,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876826878152003464, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0.00000000465149
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4876826878152003464, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.33e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4876826878152003464, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_UseBoundingSphereOverride
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5415078188535390009, guid: a8920016e83f1594daf1802fc616b0dd, type: 3}
       propertyPath: m_Intensity
@@ -49008,7 +49020,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1897139358
 Light:
   m_ObjectHideFlags: 0
@@ -49020,8 +49032,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9656434, b: 0.740566, a: 1}
-  m_Intensity: 301.8455
+  m_Color: {r: 0.97207636, g: 1, b: 0.8066038, a: 1}
+  m_Intensity: 12.00003
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -49064,7 +49076,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6230
+  m_ColorTemperature: 16289
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 1.1344381e-36, y: 6.6246203e+37, z: 4.5904e-41, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -49078,13 +49090,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897139357}
-  m_LocalRotation: {x: -0.38291144, y: 0.62180495, z: -0.057635035, w: -0.68074644}
+  m_LocalRotation: {x: -0.5223762, y: -0.38912594, z: 0.2868942, w: -0.7024215}
   m_LocalPosition: {x: -13.883645, y: 5.352, z: -0.025149608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 686513822}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 36.371, y: 265.261, z: -29.6}
+  m_LocalEulerAnglesHint: {x: 73.163, y: 418.485, z: 0.692}
 --- !u!114 &1897139361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49105,13 +49117,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 301.8455
+  m_Intensity: 12.00003
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.06
+  m_VolumetricDimmer: 2.13
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -54037,7 +54049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.709999
+      value: -3.1639993
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58163,13 +58175,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3562112806403980864}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.01988613, y: 0.011543765, z: -0.022901725, w: 0.9994733}
   m_LocalPosition: {x: -8.79, y: 1.75, z: -10.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 686513822}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.248, y: 1.375, z: -2.652}
 --- !u!108 &4255112379989269324
 Light:
   m_ObjectHideFlags: 0
@@ -60227,7 +60239,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5142822, y: 0.2830825}
   m_BounceIntensity: 1

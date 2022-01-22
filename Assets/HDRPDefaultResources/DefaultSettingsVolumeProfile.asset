@@ -83,32 +83,32 @@ MonoBehaviour:
   m_Name: HDRISky
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
+  m_AdvancedMode: 1
   rotation:
     m_OverrideState: 1
-    m_Value: 49
+    m_Value: 102
     min: 0
     max: 360
   skyIntensityMode:
-    m_OverrideState: 1
-    m_Value: 0
+    m_OverrideState: 0
+    m_Value: 1
   exposure:
     m_OverrideState: 1
-    m_Value: -3.87
+    m_Value: 1
   multiplier:
     m_OverrideState: 0
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 0
-    m_Value: 1.1761153
+    m_Value: 0.064337425
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 0
-    m_Value: {x: 0.2973801, y: 0.340631, z: 0.5}
+    m_Value: {x: 0.20718892, y: 0.310805, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
-    m_Value: 20000
+    m_Value: 2
   updateMode:
     m_OverrideState: 1
     m_Value: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: bf092540576b6f845a6dcd1a9801c414, type: 3}
+    m_Value: {fileID: 8900000, guid: 34a763168147f4182a21b9fd004d67de, type: 3}
   enableDistortion:
     m_OverrideState: 0
     m_Value: 1
@@ -588,7 +588,7 @@ MonoBehaviour:
     m_Value: 45
     min: 1
   enableVolumetricFog:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   skyAmbientMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   fogType:
     m_OverrideState: 0
@@ -1599,27 +1599,27 @@ MonoBehaviour:
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   enabled:
     m_OverrideState: 1
     m_Value: 1
   usedAlgorithm:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   rayTracing:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   reflectSky:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
   depthBufferThickness:
-    m_OverrideState: 0
-    m_Value: 0.01
+    m_OverrideState: 1
+    m_Value: 0.376
     min: 0
     max: 1
   screenFadeDistance:
-    m_OverrideState: 0
-    m_Value: 0.1
+    m_OverrideState: 1
+    m_Value: 0
     min: 0
     max: 1
   accumulationFactor:
@@ -1631,9 +1631,9 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 1
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
   sampleCount:
     m_OverrideState: 0
@@ -1641,25 +1641,25 @@ MonoBehaviour:
     min: 1
     max: 32
   bounceCount:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
     min: 1
     max: 8
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 1
     min: 0
     max: 1
   m_SmoothnessFadeStart:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 1
     min: 0
     max: 1
   m_RayMaxIterations:
     m_OverrideState: 1
     m_Value: 32
   m_RayLength:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 50
     min: 0.01
   m_ClampValue:
